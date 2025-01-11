@@ -10,13 +10,13 @@ There are **45.722 documents** in the `dataset` folder. The documents are availa
 
 1. **Classification**
    - Initially, the crawling data will be manually labeled, with 500 samples designated for training and 50 for testing. Each label represents the sentiment polarity of the data: "positive," "negative," or "neutral."
-   - The data will first be preprocessed to ensure it is clean. Various machine learning algorithms (including Naive Bayes, Random Forest, Logistic Regression, Support Vector Machine, and Hierarchical Classification) will be used to train the model. The best-performing model will then predict the sentiment of the remaining unlabeled data. You can find the code for this stage in the `dataset/ST_Classification` folder.
+   - The data will first be preprocessed to ensure it is clean. Various machine learning algorithms (including Naive Bayes, Random Forest, Logistic Regression, Support Vector Machine, and Hierarchical Classification) will be used to train the model. The best-performing model will then predict the sentiment of the remaining unlabeled data. You can find the code for this stage in the `indo-stunting/ST_Classification` folder.
 
 3. **Topic Modeling**
-   - Topic modeling will be performed to identify topics within the documents using Latent Dirichlet Allocation (LDA). The code for this section is located in the `dataset/ST_Topic_Modeling` folder.
+   - Topic modeling will be performed to identify topics within the documents using Latent Dirichlet Allocation (LDA). The code for this section is located in the `indo-stunting/ST_Topic_Modeling` folder.
 
 4. **Sentiment Analysis**
-   - Each topic identified in the previous stage will undergo sentiment analysis to provide a comprehensive understanding of public sentiment related to each topic. The code for this analysis can be found in the `dataset/ST_Sentiment_Analysis` folder.
+   - Each topic identified in the previous stage will undergo sentiment analysis to provide a comprehensive understanding of public sentiment related to each topic. The code for this analysis can be found in the `indo-stunting/ST_Sentiment_Analysis` folder.
 
 **Note:**
 - The training and testing data used in sentiment analysis are derived from the dominant topics identified in the topic modeling stage.
