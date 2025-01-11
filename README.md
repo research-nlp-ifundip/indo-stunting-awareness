@@ -18,9 +18,6 @@ There are **45.722 documents** in the `dataset` folder. The documents are availa
 4. **Sentiment Analysis**
    - Each topic identified in the previous stage will undergo sentiment analysis to provide a comprehensive understanding of public sentiment related to each topic. The code for this analysis can be found in the `indo-stunting/ST_Sentiment_Analysis` folder.
 
-**Note:**
-- The training and testing data used in sentiment analysis are derived from the dominant topics identified in the topic modeling stage.
-
 
 ## Dataset Details
 The dataset contains Twitter data collected from January 1, 2021, to September 3, 2021. It includes three columns: `date` representing the tweet's date, `content` with the tweet's text, and `username` indicating the user's Twitter handle. The data is unsupervised and is not labeled for any specific classification or analysis.
